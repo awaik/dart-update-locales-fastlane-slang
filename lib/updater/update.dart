@@ -4,11 +4,21 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 
-///
 
+///
+/// Directory with translations made by slang-gpt
+/// https://pub.dev/packages/slang_gpt
+///
 const kTranslationsDir = 'stringsDir';
+
+///
+/// Directory with fastlane files
+///
 const kFastlaneDir = 'updatedDir';
-const kFlavor = 'flavor';
+
+///
+/// OS type - ios or android
+///
 const kOS = 'os';
 
 void update(ArgResults argResults) async {
